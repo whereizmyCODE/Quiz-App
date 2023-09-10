@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/color"
+   >
+
+    <TextView
+
+        android:id="@+id/congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="45sp"
+        android:text="Congratulations!!"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text2"
+
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        tools:text="You scored 10"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Want to try again?"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Restart"/>
+
+
+
+
+
+</LinearLayout>
